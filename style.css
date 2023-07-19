@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins&family=Work+Sans:ital,wght@0,700;1,600&display=swap');
+
+
+/* shared style */
+.primary-width{
+    margin-right: 240px;
+    margin-left: 240px;
+}
+.text-primary-color{
+    color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);  
+}
+.primary-btn{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 9px 20px 9px 20px;
+
+}
+.secondary-btn{
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 9px 23px 9px 23px; 
+}
+
+/* nav  */
+.nav{
+    width: 100%;
+    height: 130px;
+    
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-logo{
+    display: flex;
+    gap: 21px;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-menu > ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+/* banner section */
+
+
+/* background-image: url("./images/Group\ 14.png");
+color: #0B0223; */
+
+.banner-container{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/Group\ 14.png");
+}
+.primary-description > li{
+    list-style: none;
+}
+.banner-description{
+
+ 
+}
+
+/* main section */
+.main-container{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    /* padding-left: 240px;
+    padding-right: 240px; */
+}
+.main-description{
+
+}
+
+/* responsive */
+@media screen and (max-width:576px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+}
