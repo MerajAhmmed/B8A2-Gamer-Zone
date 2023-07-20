@@ -323,7 +323,9 @@ color: #0B0223; */
 }
 
 .main-title, .main-title-span{
-    color: #FFF;
+    color: #0b0b0b;
+    font-size: 2rem;
+    text-align: right;
 }
 
 .play-games-img{
